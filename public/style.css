@@ -1,0 +1,21 @@
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0b1220;color:#e5e7eb}
+header{display:flex;gap:10px;align-items:center;padding:10px 14px;background:#111827;border-bottom:1px solid #1f2937}
+h1{font-size:16px;margin:0 10px 0 0;white-space:nowrap}
+h2{font-size:12px;margin:14px 0 6px;color:#9ca3af;text-transform:uppercase;letter-spacing:.06em}
+input{background:#0f172a;border:1px solid #334155;color:#e5e7eb;border-radius:6px;padding:6px 8px;min-width:0}
+button{background:#1f2937;color:#e5e7eb;border:1px solid #374151;border-radius:6px;padding:6px 10px;cursor:pointer}
+button:hover{background:#374151}
+main{display:flex;gap:14px;padding:14px;align-items:flex-start}
+aside{width:270px;flex:0 0 270px}
+ul#devices{list-style:none;margin:0;padding:0}
+ul#devices li{padding:8px 10px;border:1px solid #1f2937;border-radius:6px;margin-bottom:6px;cursor:pointer;background:#0f172a}
+ul#devices li.sel{border-color:#2563eb;background:#111c33}
+canvas{width:100%;max-width:430px;background:#000;border:1px solid #1f2937;border-radius:8px;touch-action:none;display:block}
+.badge{font-size:11px;padding:3px 9px;border-radius:99px;background:#7f1d1d}
+.badge.ok{background:#065f46}
+label{display:block;font-size:12px;margin:10px 0 2px;color:#9ca3af}
+.muted{color:#6b7280;font-size:12px}
+hr{border:0;border-top:1px solid #1f2937;margin:14px 0}
+input[type=file]{width:100%;font-size:12px}
+input[type=number]{width:100%}
