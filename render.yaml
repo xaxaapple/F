@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: finalstage-relay
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: ADMIN_KEY
+        generateValue: true
